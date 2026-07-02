@@ -4,6 +4,29 @@ A high-fidelity, mobile-first concept visualization for a next-generation Indian
 
 **Tagline:** *Your dish. Your name. Your flavor. Maybe next week, everyone's eating it.*
 
+## Live Demo
+
+### Option A — GitHub Pages (recommended, permanent)
+
+The app auto-deploys to the `gh-pages` branch. **Enable it once:**
+
+1. Open [github.com/iamsean007/website/settings/pages](https://github.com/iamsean007/website/settings/pages)
+2. Source → **Deploy from a branch**
+3. Branch: `gh-pages` · Folder: `/ (root)` → **Save**
+4. Live at **https://iamsean007.github.io/website/** (takes ~1 min)
+
+### Option B — Deploy to Vercel (instant, no GitHub Pages needed)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/iamsean007/website&project-name=masala-lab&root-directory=masala-lab)
+
+Click the button, sign in, deploy — Vercel gives you a live URL in ~30 seconds.
+
+### Option C — Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iamsean007/website#BASE=masala-lab)
+
+Set **Base directory** to `masala-lab` when prompted.
+
 ## Experience Overview
 
 | Screen | Description |
@@ -13,12 +36,6 @@ A high-fidelity, mobile-first concept visualization for a next-generation Indian
 | **Scene 02 — Sauce** | Real-time sauce visualization transforms as you drag flavor sliders (buttery, garlicky, creamy, smoky, tangy, spicy) |
 | **Scene 03 — Yours** | Finished dish preview with generated number (#253), naming, rice/naan choice, nutrition profile, and order CTA |
 
-## Design Language
-
-- **Colors:** Deep orange, saffron, chili red, charcoal black, clay brown, cream white, herb green
-- **Feel:** Premium restaurant app × food game × social platform
-- **Interactions:** Swipe gestures, scroll-snap scenes, tactile sliders, spring animations
-
 ## Run Locally
 
 ```bash
@@ -27,30 +44,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173 — best experienced in mobile viewport or the built-in phone frame.
-
-## Live Demo
-
-**Interactive demo (temporary tunnel):** https://replacing-nobody-premium-nominations.trycloudflare.com
-
-Open on your phone for the best experience. Tap **Create Yours** on Butter Chicken, then scroll through the three scenes.
-
-### Permanent hosting (GitHub Pages)
-
-The app auto-deploys to the `gh-pages` branch on every push to `main`. To enable the permanent URL:
-
-1. Go to [github.com/iamsean007/website/settings/pages](https://github.com/iamsean007/website/settings/pages)
-2. Under **Build and deployment**, set Source to **Deploy from a branch**
-3. Select branch `gh-pages`, folder `/ (root)`
-4. Save — the app will be live at **https://iamsean007.github.io/website/**
-
-## Concept Art
-
-Static high-fidelity mockups are in `/opt/cursor/artifacts/assets/`:
-- `hero-menu-concept.png`
-- `chicken-scene-concept.png`
-- `sauce-scene-concept.png`
-- `finished-dish-concept.png`
+Open http://localhost:5173 — best on mobile viewport or the built-in phone frame.
 
 ## Tech Stack
 
