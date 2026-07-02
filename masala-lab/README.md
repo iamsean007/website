@@ -29,6 +29,21 @@ npm run dev
 
 Open http://localhost:5173 — best experienced in mobile viewport or the built-in phone frame.
 
+## Live Demo
+
+**Interactive demo (temporary tunnel):** https://replacing-nobody-premium-nominations.trycloudflare.com
+
+Open on your phone for the best experience. Tap **Create Yours** on Butter Chicken, then scroll through the three scenes.
+
+### Permanent hosting (GitHub Pages)
+
+The app auto-deploys to the `gh-pages` branch on every push to `main`. To enable the permanent URL:
+
+1. Go to [github.com/iamsean007/website/settings/pages](https://github.com/iamsean007/website/settings/pages)
+2. Under **Build and deployment**, set Source to **Deploy from a branch**
+3. Select branch `gh-pages`, folder `/ (root)`
+4. Save — the app will be live at **https://iamsean007.github.io/website/**
+
 ## Concept Art
 
 Static high-fidelity mockups are in `/opt/cursor/artifacts/assets/`:
