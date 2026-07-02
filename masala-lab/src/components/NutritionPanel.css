@@ -1,0 +1,87 @@
+.nutrition-panel {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  padding: 16px;
+}
+
+.nutrition-panel__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cream-muted);
+  margin-bottom: 14px;
+}
+
+.nutrition-panel__icon {
+  color: var(--saffron);
+}
+
+.nutrition-panel__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.nutrition-panel__metric {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nutrition-panel__metric-label {
+  font-size: 11px;
+  color: var(--cream-muted);
+  opacity: 0.7;
+}
+
+.nutrition-panel__metric-value {
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.nutrition-panel__metric-icons {
+  font-size: 14px;
+  letter-spacing: -2px;
+}
+
+.nutrition-panel__bar-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nutrition-panel__bar {
+  height: 6px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.nutrition-panel__bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--saffron), var(--orange));
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.nutrition-panel__bar-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--saffron-light);
+}
+
+.nutrition-panel__disclaimer {
+  margin-top: 12px;
+  font-size: 10px;
+  color: var(--cream-muted);
+  opacity: 0.4;
+  text-align: center;
+}
